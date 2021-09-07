@@ -1,14 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import '../src/components/Navigation';
+import "bootstrap/dist/css/bootstrap.min.css";
+// import "./scss/styles";
+
+import "./scss/styles.scss";
+
+import Col from "react-bootstrap/Col";
+//CUSTOM COMPONENTS
+import Navigation from "../src/components/Navigation";
 
 function App() {
-	return;
-	<div class='container'>
-		<div class='col'>
-			<Navigation />
-		</div>
-	</div>;
+  return (
+    <div class="container">
+      <div class="col sm-3"></div>
+      <div class="col sm-6">
+        <Navigation />
+      </div>
+      <div class="col sm-3"></div>
+    </div>
+  );
 }
 
 export default App;
