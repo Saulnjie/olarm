@@ -1,22 +1,20 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import "./scss/styles";
 
-import "./scss/styles.scss";
+import './scss/styles.scss';
 
-import Col from "react-bootstrap/Col";
+import Col from 'react-bootstrap/Col';
 //CUSTOM COMPONENTS
-import Navigation from "../src/components/Navigation";
+import Navigation from '../src/components/Navigation';
 
 function App() {
-  return (
-    <div class="container">
-      <div class="col sm-3"></div>
-      <div class="col sm-6">
-        <Navigation />
-      </div>
-      <div class="col sm-3"></div>
-    </div>
-  );
+	return (
+		<div class='container'>
+			<div class='col sm-10'>
+				<Navigation />
+			</div>
+		</div>
+	);
 }
 
 export default App;
