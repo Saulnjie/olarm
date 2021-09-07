@@ -1,6 +1,20 @@
 .me-auto {
-	margin: auto !important;
+  margin: auto !important;
 }
 .bg-light {
-	--bs-bg-opacity: 0;
+  --bs-bg-opacity: 0;
+}
+.landing__page {
+  height: 100vh;
+  background-image: src("../images/landing.jpg");
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.Nav__Logo {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding-top: 7%;
 }

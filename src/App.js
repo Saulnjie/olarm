@@ -6,19 +6,26 @@ import "./scss/styles.scss";
 import Col from "react-bootstrap/Col";
 //CUSTOM COMPONENTS
 import Navigation from "../src/components/Navigation";
-import Nav__Logo from "./components/Nav__Logo";
+import Nav__Logo from "./components/Nav__Logo.js";
+import backgroundLanding from "./images/landing.jpg";
 
 function App() {
   return (
-    <div class="container">
-      <div class="col-sm-3">
-        <Nav__Logo />
+    <section
+      class="landing__page"
+      style={{ backgroundImage: `url(${backgroundLanding})` }}
+    >
+      >
+      <div className="container container__Nav">
+        <div className="col-sm-3">
+          <Nav__Logo />
+        </div>
+        <div className="col sm-6">
+          <Navigation />
+        </div>
+        <div className="col-sm-3"></div>
       </div>
-      <div class="col sm-6">
-        <Navigation />
-      </div>
-      <div class="col-sm-3"></div>
-    </div>
+    </section>
   );
 }
 
