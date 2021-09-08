@@ -94,3 +94,18 @@
 .button_non_active {
   border: none !important;
 }
+
+.page_two {
+  width: 100%;
+  height: 100vh;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.page_two__sections {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+}
