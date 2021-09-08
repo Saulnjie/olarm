@@ -5,11 +5,11 @@ import './scss/styles.scss';
 
 //CUSTOM COMPONENTS
 import Navigation from '../src/components/Navigation';
-import Nav__Logo from './components/Nav__Logo.js';
 import backgroundLanding from './images/landing.jpg';
 import Buttons from './components/ButtonsNav.js';
 import Information from './components/BannerInfo';
 import CardsLanding from './components/CardsLanding';
+import olarm_logo_image from './images/olarm_logo.png';
 
 function App() {
 	return (
@@ -18,7 +18,7 @@ function App() {
 			style={{ backgroundImage: `url(${backgroundLanding})` }}>
 			<div className='container container__Nav'>
 				<div className='col-sm-3'>
-					<Nav__Logo />
+					<img style={{ backgroundImage: `url(${olarm_logo_image})` }} />
 				</div>
 				<div className='col-sm-6'>
 					<Navigation />
