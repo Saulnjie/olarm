@@ -18,7 +18,7 @@ function App() {
 			style={{ backgroundImage: `url(${backgroundLanding})` }}>
 			<div className='container container__Nav'>
 				<div className='col-sm-3'>
-					<img style={{ backgroundImage: `url(${olarm_logo_image})` }} />
+					<img src={olarm_logo_image} />
 				</div>
 				<div className='col-sm-6'>
 					<Navigation />
