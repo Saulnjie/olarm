@@ -36,7 +36,7 @@ function App() {
           <div className="col-sm-2"></div>
           <div className="col-sm-2"></div>
         </div>
-        <div className="container">
+        <div className="container cardHolder">
           <div className="col-sm-8">
             <CardsLanding />
           </div>
