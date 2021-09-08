@@ -8,10 +8,18 @@ function Navigation() {
     <Navbar bg="light" variant="light">
       <Container>
         <Nav className="nav__responsive me-auto">
-          <Nav.Link href="#home">HOME</Nav.Link>
-          <Nav.Link href="#features">FEATURES</Nav.Link>
-          <Nav.Link href="#pricing">PLANS</Nav.Link>
-          <Nav.Link href="#pricing">MEET OLARM</Nav.Link>
+          <Nav.Link className="nav_link active_link" href="#home">
+            HOME
+          </Nav.Link>
+          <Nav.Link className="nav_link " href="#features">
+            FEATURES
+          </Nav.Link>
+          <Nav.Link className="nav_link " href="#pricing">
+            PLANS
+          </Nav.Link>
+          <Nav.Link className="nav_link" href="#pricing">
+            MEET OLARM
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>
