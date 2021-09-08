@@ -21,6 +21,7 @@ function App() {
 					<img src={olarm_logo_image} />
 				</div>
 				<div className='col-sm-6'>
+					test
 					<Navigation />
 				</div>
 				<div className='col-sm-3 navBtns'>
